@@ -1,0 +1,28 @@
+@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Button.-primary {
+  font-size: 18;
+}
+
+.menu {
+  border-radius: 50%;
+  background-color: #007bff; /* Change to your desired background color */
+  position: absolute;
+  top: 20; /* Adjust as needed */
+  right: 20; /* Adjust as needed */
+  padding: 10px;
+  border: 2px solid rgb(202, 43, 43); /* Change to your desired border color */
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(16, 163, 114); /* Change to your desired line color */
+  margin: 5px 0;
+  border-radius: 2px;
+}

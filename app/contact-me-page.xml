@@ -1,0 +1,16 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    
+    <GridLayout rows="auto" columns="auto" width="100" height="100" class="menu">
+    <StackLayout row="0" col="0" class="line"></StackLayout>
+    <StackLayout row="0" col="0" class="line"></StackLayout>
+    <StackLayout row="0" col="0" class="line"></StackLayout>
+</GridLayout>
+
+    <ActionBar title="Contact Me" icon="" />
+    <StackLayout class="p-4">
+        <StackLayout height="80"></StackLayout>
+        <Label text="Some info goes here" class="text-3xl text-center"  /> 
+        <StackLayout height="20"></StackLayout>  <!-- This creates a space of 20 dip (device-independent pixels)
+        <Button text="Home" onTap="goToHome" ></Button>  -->
+    </StackLayout>
+</Page>
