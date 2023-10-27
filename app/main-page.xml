@@ -10,7 +10,7 @@
 
     <ActionBar title="About Me" icon="" />
     <StackLayout class="p-4">
-    <image src="~/image/YO.jpg"
+    <image src="~/images/YO.jpg"
         width="100%"/>
         <StackLayout height="80"></StackLayout>
         <Label text="Ines T" class="text-3xl text-center"  /> 
