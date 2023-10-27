@@ -8,8 +8,33 @@
 
     <ActionBar title="About Me" icon="" />
     <StackLayout class="p-4">
+       
         <StackLayout height="80"></StackLayout>
-        <Label text="Something about me, bla bla" class="text-3xl text-center"  /> 
+        <Label text="¡Hola! I'm an international student hailing from the vibrant country of Mexico, 
+        and I've been on an exciting journey in the United States for the past four years. Currently, 
+        I'm on the verge of completing my degree in Computer Science, having previously earned an 
+        associate's degree in Computer Information Technology. Technology is my passion; it's not just
+        a career choice, but a genuine love affair. My diverse professional experience spans from roles 
+        as a secretary and manager to donning the apron as a Starbucks barista. In the realm of IT, I've 
+        thrived as a Technician Support Specialist, relishing every opportunity to troubleshoot and find 
+        innovative solutions. When I'm not immersed in the digital world, you'll often find me in pursuit 
+        of the perfect cup of coffee. The art of brewing and the nuances of flavor profiles truly fascinate
+        me. I'm a staunch advocate for the power of marketing, recognizing its influence in shaping our 
+        connected world.
+        Recently, I've discovered a newfound love for badminton and dedicated hours at the gym to stay active 
+        and healthy. It's become a gratifying part of my routine, offering both physical and mental rejuvenation.
+        Beyond my personal interests, I'm deeply passionate about advocating for the safety and wellbeing of 
+        vulnerable children. Their protection is a cause that resonates deeply with me, particularly for those 
+        facing situations of abuse, abandonment, or sexual assault. I believe every child deserves a safe and 
+        nurturing environment, and I'm committed to playing my part in ensuring this reality.
+        I'm honored to have been recognized as the Outstanding Graduate Student in Computer Information 
+        Technology at my college. This achievement speaks to my dedication and commitment to excelling in 
+        my field, and I'm eager to continue pushing boundaries and contributing to the ever-evolving tech 
+        landscape." class="text-3xl text-center"  /> 
+  <Image src="~/images/YO.jpg"
+        width="100%"
+        aspect="aspectFill"/>
+
         <StackLayout height="20"></StackLayout>  <!-- This creates a space of 20 dip (device-independent pixels)
         <Button text="Home" onTap="goToHome" ></Button>  -->
     </StackLayout>
