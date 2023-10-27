@@ -10,7 +10,8 @@
     <StackLayout class="p-4">
        
         <StackLayout height="80"></StackLayout>
-        <Label text="¡Hola! I'm an international student hailing from the vibrant country of Mexico, 
+        <div class="container">
+    <label class="text text-center"> "¡Hola! I'm an international student hailing from the vibrant country of Mexico, 
         and I've been on an exciting journey in the United States for the past four years. Currently, 
         I'm on the verge of completing my degree in Computer Science, having previously earned an 
         associate's degree in Computer Information Technology. Technology is my passion; it's not just
@@ -30,7 +31,9 @@
         I'm honored to have been recognized as the Outstanding Graduate Student in Computer Information 
         Technology at my college. This achievement speaks to my dedication and commitment to excelling in 
         my field, and I'm eager to continue pushing boundaries and contributing to the ever-evolving tech 
-        landscape." class="text-3xl text-center"  /> 
+        landscape." class="text-3xl text-center"  
+           </label>
+      </div>
   <Image src="~/images/YO.jpg"
         width="100%"
         aspect="aspectFill"/>

@@ -26,3 +26,15 @@ Button.-primary {
   margin: 5px 0;
   border-radius: 2px;
 }
+
+
+.container {
+        max-width: 95%; /* Set the maximum width of the container */
+        margin: 10px auto; /* Set the top and bottom margin to 10px and center the container */
+    }
+
+    .text {
+        font-size: 1.5em; /* Set the font size to 1.5em (adjust as needed) */
+        line-height: 1.6; /* Set the line height (adjust as needed) */
+    }
+
