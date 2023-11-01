@@ -18,8 +18,16 @@
         <TextField id="lastName" hint="Last Name"/>
         <TextField id="phoneNumber" hint="Phone Number"/>
         <TextField id="email" hint="Email" />
+        <TextField id="message" hint="Leave a message"/>
 
-        <Button onTap="submitForm" text="Submit" class="-primary"/>
+
+            <!-- Box containing the message input field -->
+    <StackLayout class="message-box p-2 m-2 border border-gray-300">
+        <TextField id="message" hint="Leave a message"/>
+    </StackLayout>
+
+       <!-- <Button onTap="submitForm" text="Submit" class="-primary"/>
+       -->
     </StackLayout>
     </ScrollView>
 </Page>
