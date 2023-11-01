@@ -14,10 +14,12 @@
         <StackLayout height="20"></StackLayout>  <!-- This creates a space of 20 dip (device-independent pixels)
         <Button text="Home" onTap="goToHome" ></Button>  -->
 
-        <TextField id="name" hint="Enter Name"/>
-        <TextField id="lastname" hint="Enter your LastName"/>
+        <TextField id="name" hint="Name"/>
+        <TextField id="lastname" hint="Last Name"/>
+        <TextField id="phoneNumber" hint="Phone Number"/>
         <TextField id="email" hint="Email"/>
-
+ 
+        <Button text="Submit"/>
     </StackLayout>
     </ScrollView>
 </Page>
