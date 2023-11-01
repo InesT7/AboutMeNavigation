@@ -15,11 +15,11 @@
         <Button text="Home" onTap="goToHome" ></Button>  -->
 
         <TextField id="name" hint="Name"/>
-        <TextField id="lastname" hint="Last Name"/>
+        <TextField id="lastName" hint="Last Name"/>
         <TextField id="phoneNumber" hint="Phone Number"/>
-        <TextField id="email" hint="Email"/>
- 
-        <Button text="Submit"/>
+        <TextField id="email" hint="Email" />
+
+        <Button onTap="submitForm" text="Submit" class="-primary"/>
     </StackLayout>
     </ScrollView>
 </Page>
