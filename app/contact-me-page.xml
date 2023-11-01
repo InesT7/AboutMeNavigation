@@ -7,10 +7,17 @@
 </GridLayout>
 
     <ActionBar title="Contact Me" icon="" />
+    <ScrollView>
     <StackLayout class="p-4">
         <StackLayout height="80"></StackLayout>
         <Label text="Some info goes here" class="text-3xl text-center"  /> 
         <StackLayout height="20"></StackLayout>  <!-- This creates a space of 20 dip (device-independent pixels)
         <Button text="Home" onTap="goToHome" ></Button>  -->
+
+        <TextField id="name" hint="Enter Name"/>
+        <TextField id="lastname" hint="Enter your LastName"/>
+        <TextField id="email" hint="Email"/>
+
     </StackLayout>
+    </ScrollView>
 </Page>
