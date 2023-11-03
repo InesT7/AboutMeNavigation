@@ -9,5 +9,5 @@ export function submitForm(args){
     let email = page.getViewById('email').text;
     let message = page.getViewById('message').text;
 
-
+    page.getViewById('thanksLabel').text ='Thank you, I will reach at to you as soon as possible';
 }

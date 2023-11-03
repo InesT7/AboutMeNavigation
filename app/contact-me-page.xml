@@ -26,8 +26,8 @@
         <TextField id="message" hint="Leave a message"/>
     </StackLayout>
 
-       <!-- <Button onTap="submitForm" text="Submit" class="-primary"/>
-       -->
+        <Button onTap="submitForm" text="Submit" class="-primary"/>
+       
     </StackLayout>
     </ScrollView>
 </Page>
