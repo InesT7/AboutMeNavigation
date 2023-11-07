@@ -11,7 +11,7 @@
 
    <!-- Content Section -->
         <StackLayout row="1" class="content" verticalAlignment="center" horizontalAlignment="center" marginTop="25">
-        <Label text="Skills" class="header-label" horizontalAlignment="center" marginTop="15"></Label>
+        <Label text="Skills1" class="header-label" horizontalAlignment="center" marginTop="15"></Label>
             <ListView id="mySkillsListView" class="list-view">
                 <ListView.itemTemplate>
                     <StackLayout orientation="vertical" class="skill-item">
