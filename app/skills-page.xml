@@ -8,6 +8,15 @@
 
     <ActionBar title="Skills" icon="" />
     <StackLayout class="p-4">
+
+    <Page loaded="pageLoaded">
+<ListView id="myListView" itemTap="onItemTap">
+  <ListView.itemTemplate>
+    <Label id="listItemLabel" />
+  </ListView.itemTemplate>
+</ListView>
+</Page>
+
         <StackLayout height="80"></StackLayout>
         <Label text="Some skills here" class="text-3xl text-center"  /> 
         <StackLayout height="20"></StackLayout>  <!-- This creates a space of 20 dip (device-independent pixels)
