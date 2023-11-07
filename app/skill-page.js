@@ -27,3 +27,14 @@ export function onLoaded (args) {
         ]);
         listView.items = itemList;
 }
+exports.onItemTap = function(args) {
+    const listView = args.object;
+    const index = args.index;
+    const tappedItem = listView.items.getItem(index);
+  
+    frameModule.Frame.topmost().navigate({
+      moduleName: "skills-page",
+      context: tappedItem,
+      animated: true
+    });
+  };
