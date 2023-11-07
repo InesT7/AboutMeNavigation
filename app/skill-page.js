@@ -1,13 +1,29 @@
 const ObservableArray = require("@nativescript/core/data/observable-array").ObservableArray;
-const listViewModule = require("@nativescript/core/ui/list-view");
-exports.pageLoaded = function(args) {
-const page = args.object;
-const listView = page.getViewById("myListView");
-const itemList = new ObservableArray([
-{ name: 'Item 1' },
-{ name: 'Item 2' },
-// ...
-]);
-listView.items = itemList;
-listView.itemTemplate = `<Label text="{{ name }}" />`;
-};
+const frameModule = require("@nativescript/core/ui/frame");
+
+export function onLoaded (args) {
+    const page = args.object;
+    const listView = page.getViewById("mySkillsListView");
+
+        const itemList = new ObservableArray([
+
+            { category: "Programming Skills"},
+            { skill: "C#" },
+            { skill: "Java" },
+            { skill: "JavaScript" },
+            { skill: "MySQL" },
+            { skill: "C++" },
+            { skill: "Visual Basic" },
+            { skill: "Database Management"},
+            { category: "Troubleshooting Skills" },
+            { skill: "Software-Hardware Troubleshooting" },
+            { skill: "Software Development Life Cycle (SDLC)" },
+            { skill: "Ios, Windows " },
+            { category: "Soft Skills" },
+            { skill: "Detail Oriented" },
+            { skill: "Problem Solving" },
+            { skill: "Critical Thinking" },
+            { skill: "Collaboration and Teamwork" },
+        ]);
+        listView.items = itemList;
+}
