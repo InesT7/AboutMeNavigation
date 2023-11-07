@@ -1,5 +1,4 @@
-<!-- <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo"> -->
-<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="onLoaded" class="page">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo"> 
  
     <GridLayout rows="auto" columns="auto" width="100" height="100" class="menu">
     <StackLayout row="0" col="0" class="line"></StackLayout>
