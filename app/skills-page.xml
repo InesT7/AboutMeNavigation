@@ -8,10 +8,13 @@
 
     <ActionBar title="Skills" icon="" />
     <StackLayout class="p-4">
+     <StackLayout height="80"></StackLayout>
+        <StackLayout height="20"></StackLayout>  <!-- This creates a space of 20 dip (device-independent pixels)
+        <Button text="Home" onTap="goToHome" ></Button>  -->
 
    <!-- Content Section -->
         <StackLayout row="1" class="content" verticalAlignment="center" horizontalAlignment="center" marginTop="25">
-        <Label text="Skills1" class="header-label" horizontalAlignment="center" marginTop="15"></Label>
+        <Label text="Skills" class="header-label" horizontalAlignment="center" marginTop="15"></Label>
             <ListView id="mySkillsListView" class="list-view">
                 <ListView.itemTemplate>
                     <StackLayout orientation="vertical" class="skill-item">
@@ -22,8 +25,6 @@
             </ListView>
         </StackLayout>
 
-        <StackLayout height="80"></StackLayout>
-        <StackLayout height="20"></StackLayout>  <!-- This creates a space of 20 dip (device-independent pixels)
-        <Button text="Home" onTap="goToHome" ></Button>  -->
+       
     </StackLayout>
 </Page>
