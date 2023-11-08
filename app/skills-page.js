@@ -6,7 +6,7 @@ export function pageLoaded (args) {
     const listView = page.getViewById("mySkillsListView");
 
         const itemList = new ObservableArray([
-            { category: "Programming Skills"},
+            { category: "PROGRAMMING SKILLS"},
             { skill: "C#" },
             { skill: "Java" },
             { skill: "JavaScript" },
@@ -14,11 +14,11 @@ export function pageLoaded (args) {
             { skill: "C++" },
             { skill: "Visual Basic" },
             { skill: "Database Management"},
-            { category: "Troubleshooting Skills" },
+            { category: "TROUBLESHOOTING SKILLS" },
             { skill: "Software-Hardware Troubleshooting" },
             { skill: "Software Development Life Cycle (SDLC)" },
             { skill: "Ios, Windows " },
-            { category: "Soft Skills" },
+            { category: "SOFT SKILLS" },
             { skill: "Detail Oriented" },
             { skill: "Problem Solving" },
             { skill: "Critical Thinking" },
