@@ -1,12 +1,11 @@
 const ObservableArray = require("@nativescript/core/data/observable-array").ObservableArray;
 const frameModule = require("@nativescript/core/ui/frame");
 
-export function onNavigatingTo (args) {
+exports.pageLoaded =  function (args) {
     const page = args.object;
     const listView = page.getViewById("mySkillsListView");
 
         const itemList = new ObservableArray([
-
             { category: "Programming Skills"},
             { skill: "C#" },
             { skill: "Java" },
